@@ -1,0 +1,8 @@
+
+Java Input Output System - IO
+
+Interfaces - InputSteam and OutputSteam - Meant to read/write Binary and Text/Character data
+
+Interfaces - Reader and Write - Meant only for read/write text data
+
+Read/Write from/to console

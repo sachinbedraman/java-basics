@@ -1,0 +1,30 @@
+Threads:
+- Creating and running threads in Java
+- Thread lifecycle/states
+- Deadlocks & Race condition
+- Thread Synchronization - synchronized keyword
+- wait(), notify() and notifyAll() methods
+
+Process:
+- Read from console
+- Write to a same file
+
+Deadlock in Threads
+- Occurs when two threads are competing for a single resource held by each other.
+
+Deadlock Example:
+Thread A
+- Holds a lock on the input mechanism
+- Obtain a lock on the file
+- Open a file
+- Read from the input
+- Write to the file
+- Release both input and file lock
+
+Thread B
+- Obtain a lock on the file
+- Open the file
+- Holds a lock on the input mechanism
+- Read from the input
+- Write to the file
+- Release both input and file lock
